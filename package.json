@@ -8,7 +8,7 @@
     "start:portfolio-ui": "nx serve portfolio",
     "start:portfolio-api": "nx serve api",
     "start": "npm run start:portfolio-ui & npm run start:portfolio-api",
-    "build": "nx build --output-path / --base-href /portfolio/",
+    "build": "nx build --output-path dist --base-href /portfolio/",
     "test": "nx test"
   },
   "private": true,
