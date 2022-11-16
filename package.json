@@ -5,10 +5,10 @@
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js",
-    "start:front": "nx serve portfolio",
-    "start:api": "nx serve api",
-    "start": "npm run start:front & npm run start:api",
-    "build": "nx build",
+    "start:portfolio-ui": "nx serve portfolio",
+    "start:portfolio-api": "nx serve api",
+    "start": "npm run start:portfolio-ui & npm run start:portfolio-api",
+    "build": "nx build --output-path dist --base-href /portfolio/",
     "test": "nx test"
   },
   "private": true,
