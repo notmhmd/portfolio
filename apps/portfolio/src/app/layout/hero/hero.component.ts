@@ -17,8 +17,6 @@ import { loadFull } from 'tsparticles';
 export class HeroComponent implements OnInit {
   id = 'tsparticles';
   particlesOptions = {
-    // preset: 'links',
-
     fpsLimit: 80,
     interactivity: {
       events: {
@@ -63,7 +61,7 @@ export class HeroComponent implements OnInit {
           default: OutMode.bounce,
         },
         random: false,
-        speed: 6,
+        speed: 3,
         straight: false,
       },
       number: {
