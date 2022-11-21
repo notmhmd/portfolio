@@ -25,9 +25,13 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@nrwl/angular": "15.1.0",
+    "ng-particles": "^3.5.3",
+    "ngx-typed-js": "^2.1.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "tsparticles": "^2.5.3",
+    "tsparticles-engine": "^2.5.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
