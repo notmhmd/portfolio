@@ -8,20 +8,6 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    colors: {
-      primary: {
-        light: '#D0DCD7',
-        DEFAULT: '#6B9080',
-        dark: '#3D5249',
-      },
-      secondary: {
-        light: '#EAF4F4',
-        DEFAULT: '#79B9B9',
-        dark: '#2A5050',
-      },
-      white: '#F6FFF8',
-      black: '#152828',
-    },
     // spacing: {
     //   sm: '0.5rem',
     //   md: '1rem',
@@ -29,5 +15,24 @@ module.exports = {
     //   xl: '2rem',
     // },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require('daisyui/src/colors/themes')['[data-theme=light]'],
+          primary: '#6B9080',
+          'primary-content': '#3D5249',
+          'primary-focus': '#D0DCD7',
+
+          secondary: '#79B9B9',
+          'secondary-content': '#2A5050',
+          'secondary-focus': '#EAF4F4',
+
+          white: '#F6FFF8',
+          black: '#152828',
+        },
+      },
+    ],
+  },
 };
