@@ -1,3 +1,15 @@
 .hoverable:hover #project-detail {
   visibility: visible;
 }
+
+.controls {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 98%;
+  padding-left: 3%;
+  padding-right: 3%;
+  z-index: 1;
+}

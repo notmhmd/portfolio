@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Project } from '@portfolio-generator/api-interfaces';
 
 @Component({
   selector: 'portfolio-generator-project-detail',
@@ -13,7 +14,7 @@ export class DetailComponent implements OnInit {
     console.log('projects detail constructed ...');
   }
 
-  @Input() project: any;
+  @Input() project?: Project;
 
   ngOnInit(): void {
     console.log('projects detail inited ...');

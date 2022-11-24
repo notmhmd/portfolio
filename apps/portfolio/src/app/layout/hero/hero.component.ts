@@ -17,7 +17,7 @@ import { loadFull } from 'tsparticles';
 export class HeroComponent implements OnInit {
   id = 'tsparticles';
   particlesOptions = {
-    fpsLimit: 80,
+    fpsLimit: 0,
     interactivity: {
       events: {
         onClick: {
