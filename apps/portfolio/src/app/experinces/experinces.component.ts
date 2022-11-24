@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experinces.component.scss'],
 })
 export class ExperincesComponent implements OnInit {
-  constructor() {}
+  constructor() {
+    console.log('experinces list constructed...');
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('experinces list inited...');
+  }
 }

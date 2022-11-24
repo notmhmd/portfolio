@@ -1,6 +1,5 @@
 import {
   Component,
-  ComponentFactoryResolver,
   ComponentRef,
   ElementRef,
   HostListener,
@@ -17,14 +16,11 @@ import { DetailComponent } from '../detail/detail.component';
   styleUrls: ['./list.component.scss'],
 })
 export class ListComponent implements OnInit {
-  shown = false;
-  skillInf = 'Some additional information';
   currentProjectElement?: HTMLElement;
   private calloutRef?: ComponentRef<DetailComponent>;
   @ViewChild(PopupHostDirective)
   private popupHost: PopupHostDirective | undefined;
   projects: Project[] = [];
-  visible = 4;
 
   @ViewChild('projectList', { static: false }) projectsList?: ElementRef;
   constructor() {
@@ -153,6 +149,7 @@ export class ListComponent implements OnInit {
       this.calloutRef = undefined;
     }
   }
+
   // calculate position relative to document for proper popup displaying
   private offset(el: EventTarget | null) {
     const rect = (el as HTMLElement).getBoundingClientRect();
