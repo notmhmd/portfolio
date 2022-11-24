@@ -7,6 +7,7 @@ import { LayoutModule } from './layout/layout.module';
 import { ListComponent } from './projects/list/list.component';
 import { DetailComponent } from './projects/detail/detail.component';
 import { PopupHostDirective } from './directives/host.directive';
+import { ExperincesComponent } from './experinces/experinces.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { PopupHostDirective } from './directives/host.directive';
     ListComponent,
     DetailComponent,
     PopupHostDirective,
+    ExperincesComponent,
   ],
   imports: [BrowserModule, HttpClientModule, LayoutModule],
   providers: [],
