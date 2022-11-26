@@ -8,6 +8,7 @@ import { ListComponent } from './projects/list/list.component';
 import { DetailComponent } from './projects/detail/detail.component';
 import { PopupHostDirective } from './directives/host.directive';
 import { ExperincesComponent } from './experinces/experinces.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +17,16 @@ import { ExperincesComponent } from './experinces/experinces.component';
     DetailComponent,
     PopupHostDirective,
     ExperincesComponent,
+    AboutMeComponent,
   ],
   imports: [BrowserModule, HttpClientModule, LayoutModule],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ListComponent, DetailComponent, PopupHostDirective],
+  exports: [
+    ListComponent,
+    DetailComponent,
+    PopupHostDirective,
+    AboutMeComponent,
+  ],
 })
 export class AppModule {}
