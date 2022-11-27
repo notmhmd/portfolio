@@ -9,6 +9,7 @@ import { DetailComponent } from './projects/detail/detail.component';
 import { PopupHostDirective } from './directives/host.directive';
 import { ExperincesComponent } from './experinces/experinces.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     PopupHostDirective,
     ExperincesComponent,
     AboutMeComponent,
+    EducationComponent,
   ],
   imports: [BrowserModule, HttpClientModule, LayoutModule],
   providers: [],
@@ -27,6 +29,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     DetailComponent,
     PopupHostDirective,
     AboutMeComponent,
+    EducationComponent,
   ],
 })
 export class AppModule {}
