@@ -30,7 +30,10 @@
   </div>
   <div class="px-6 pt-6 lg:px-8">
     <div>
-      <nav class="flex h-9 items-center justify-between" aria-label="Global">
+      <nav
+        class="flex h-9 items-center justify-evenly lg:justify-between"
+        aria-label="Global"
+      >
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Portfolio</span>
@@ -47,29 +50,29 @@
           </button>
         </div>
         <div
-          class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12"
+          class="flex lg:min-w-0 lg:flex-1 lg:justify-center gap-5 lg:gap-x-12 text-xs lg:text-3xl"
         >
           <a
             href="#projects"
-            class="font-semibold text-gray-900 hover:text-gray-900"
+            class="font-semibold text-primary-content hover:text-gray-500"
             >Projects</a
           >
 
           <a
             href="#about-me"
-            class="font-semibold text-gray-900 hover:text-gray-900"
+            class="font-semibold text-primary-content hover:text-gray-500"
             >About Me</a
           >
 
           <a
             href="#experince"
-            class="font-semibold text-gray-900 hover:text-gray-900"
+            class="font-semibold text-primary-content hover:text-gray-500"
             >Experince</a
           >
 
           <a
             href="#education"
-            class="font-semibold text-gray-900 hover:text-gray-900"
+            class="font-semibold text-primary-content hover:text-gray-500"
             >Education</a
           >
         </div>
@@ -81,67 +84,6 @@
           >
         </div>
       </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div role="dialog" aria-modal="true">
-        <div
-          focus="true"
-          class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
-        >
-          <div class="flex h-9 items-center justify-between">
-            <div class="flex">
-              <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Portfolio</span>
-                <img class="h-10" src="assets/icons/icon.png" alt="" />
-              </a>
-            </div>
-            <div class="flex">
-              <button
-                type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              >
-                <span class="sr-only">Close menu</span>
-                <!-- Heroicon name: outline/x-mark -->
-              </button>
-            </div>
-          </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                  >Projects</a
-                >
-
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                  >About Me</a
-                >
-
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                  >Experince</a
-                >
-
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                  >School</a
-                >
-              </div>
-              <div class="py-6">
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-                  >Log in</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </header>
