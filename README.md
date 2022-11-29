@@ -27,13 +27,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/notmhmd/portfolio">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/icon.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Portfolio Generator</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Portfolio Generator with cool template!
     <br />
     <a href="https://github.com/notmhmd/portfolio"><strong>Explore the docs »</strong></a>
     <br />
