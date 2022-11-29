@@ -101,9 +101,9 @@ export class ListComponent implements OnInit {
     const currentPosition = this.offset(event.target);
     this.showCallout(project, currentPosition);
   }
-
+  @HostListener('body:click', ['$event'])
   @HostListener('mouseover', ['$event'])
-  onProjectMouseOver(event: any) {
+  onProjectMouseOver(event: MouseEvent) {
     let hoverComponent = event.target;
     let inside = false;
     do {
@@ -115,7 +115,7 @@ export class ListComponent implements OnInit {
           inside = true;
         }
       }
-      hoverComponent = hoverComponent.parentNode;
+      hoverComponent = (<HTMLElement>hoverComponent).parentNode;
     } while (hoverComponent);
     if (inside) {
       console.log('inside');
