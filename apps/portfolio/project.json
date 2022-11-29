@@ -14,9 +14,7 @@
         "main": "apps/portfolio/src/main.ts",
         "polyfills": "apps/portfolio/src/polyfills.ts",
         "tsConfig": "apps/portfolio/tsconfig.app.json",
-        "allowedCommonJsDependencies": [
-          "typed.js"
-        ],
+        "allowedCommonJsDependencies": ["typed.js"],
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/portfolio/src/favicon.ico",
