@@ -7,10 +7,10 @@
 
   <div class="flex justify-center p-4">
     <ul class="steps steps-vertical">
-      <li class="step">Trainee 3-months</li>
-      <li class="step">X-Comapny 1-year</li>
-      <li class="step">Z-Company 2-months</li>
-      <li class="step">Freelancing 4-years</li>
+      <li class="step" *ngFor="let experince of experiences">
+        {{ experince.position }} -
+        {{ dateDiff(experince.dateUntil, experince.dateFrom) }}
+      </li>
     </ul>
   </div>
 </div>

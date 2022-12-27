@@ -32,66 +32,37 @@ export class ListComponent implements OnInit {
     this.projects = [
       {
         id: '1',
-        name: 'test-project 1',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
+        name: 'Fresh Mobile Application',
+        coverImage:
+          'https://play-lh.googleusercontent.com/aqClDPVbJjJ8QohrkJZce392s10oUHgesMs0lV7Hq3kTWqv4lfhtFPe-1_7cvtZskhQ=w240-h480-rw',
+        description:
+          'Fresh is a sales service of vegetables and fruits - and other products - carefully selected at the central market prices with home delivery at a nominal price developed using ionic 3 framework',
+        link: 'https://play.google.com/store/apps/details?id=com.omegateam.fresh',
       },
       {
         id: '2',
-        name: 'test-project 2',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
+        name: 'Movie Recomendation',
+        coverImage:
+          'https://png2.cleanpng.com/sh/dba421f7b1e5cf1c4f07e537931cc637/L0KzQYq3V8MxN5dqiJH0aYP2gLBuTgBpd6V0fARqcHjsc37tifxuNZ50jttuLXPkfbb5gb1kcZ9qhdM2d3Xlg7r7hb1idpUyhdHraXzoPbL3kPxqa5J5gdH3LXTohrbzjCBubZ95ReVucobsc7a0VfQ0bpQASqc5ZXToRIq1WckzPmo8TaI6NUa3RIe4U8Q6OGc1UZD5bne=/kisspng-photographic-film-movie-camera-cinema-website-and-mobile-application-development-service-5d3fc9250ede49.9926975015644613490609.png',
+        description:
+          'a movie recomendation service built using python django that implements cosine similarity algoritm',
+        link: 'https://github.com/notmhmd/DjangoMovieRecommendation',
       },
       {
         id: '3',
-        name: 'test-project 3',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
+        name: 'ABC University',
+        coverImage: 'https://cdn-icons-png.flaticon.com/512/508/508970.png',
+        description:
+          'ABC University is fully integrated social network platform build for university students that have many features that helps communcation between student and help building communities around them built using python django',
+        link: 'https://github.com/notmhmd/ABC',
       },
       {
         id: '4',
-        name: 'test-project 4',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
-      },
-      {
-        id: '5',
-        name: 'test-project 5',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
-      },
-      {
-        id: '6',
-        name: 'test-project 6',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
-      },
-      {
-        id: '7',
-        name: 'test-project 7',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
-      },
-      {
-        id: '8',
-        name: 'test-project 8',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
-      },
-      {
-        id: '9',
-        name: 'test-project 9',
-        coverImage: 'https://placeimg.com/250/180/arch',
-        description: '',
-        link: '',
+        name: 'Tblya',
+        coverImage: 'https://dashboard.tblya.com/assets/logo.svg',
+        description:
+          'tblya is a e-store builder platform built for sudanese market to help mini stores advance on the e-commerce eco-system',
+        link: 'https://dashboard.tblya.com/#/home',
       },
     ];
   }

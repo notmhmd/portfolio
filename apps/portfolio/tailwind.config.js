@@ -14,10 +14,14 @@ module.exports = {
     //   lg: '1.5rem',
     //   xl: '2rem',
     // },
+    fontFamily:{
+      'mono':['Montserrat']
+    }
   },
   plugins: [require('daisyui')],
   daisyui: {
     themes: [
+
       {
         light: {
           ...require('daisyui/src/colors/themes')['[data-theme=light]'],

@@ -26,6 +26,7 @@
     "@nestjs/platform-express": "^9.0.0",
     "@nrwl/angular": "15.1.0",
     "daisyui": "^2.41.0",
+    "moment": "^2.29.4",
     "ng-particles": "^3.5.3",
     "ngx-typed-js": "^2.1.1",
     "reflect-metadata": "^0.1.13",

@@ -18,6 +18,8 @@
       "@portfolio-generator/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
       ],
+      "@portfolio-generator/core-data": ["libs/core-data/src/index.ts"],
+      "@portfolio-generator/core-state": ["libs/core-state/src/index.ts"],
       "@portfolio-generator/layout": ["libs/layout/src/index.ts"]
     }
   },
