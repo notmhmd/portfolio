@@ -15,7 +15,7 @@ module.exports = {
     //   xl: '2rem',
     // },
     fontFamily:{
-      'mono':['Montserrat']
+      'mono':['Montserrat'],
     }
   },
   plugins: [require('daisyui')],
