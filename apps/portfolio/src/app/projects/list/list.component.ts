@@ -43,7 +43,7 @@ export class ListComponent implements OnInit {
         id: '2',
         name: 'Movie Recomendation',
         coverImage:
-          'https://png2.cleanpng.com/sh/dba421f7b1e5cf1c4f07e537931cc637/L0KzQYq3V8MxN5dqiJH0aYP2gLBuTgBpd6V0fARqcHjsc37tifxuNZ50jttuLXPkfbb5gb1kcZ9qhdM2d3Xlg7r7hb1idpUyhdHraXzoPbL3kPxqa5J5gdH3LXTohrbzjCBubZ95ReVucobsc7a0VfQ0bpQASqc5ZXToRIq1WckzPmo8TaI6NUa3RIe4U8Q6OGc1UZD5bne=/kisspng-photographic-film-movie-camera-cinema-website-and-mobile-application-development-service-5d3fc9250ede49.9926975015644613490609.png',
+          'https://icons.veryicon.com/png/o/miscellaneous/general-bottom-guide-monochrome-icon/movie-night-movie-list.png',
         description:
           'a movie recomendation service built using python django that implements cosine similarity algoritm',
         link: 'https://github.com/notmhmd/DjangoMovieRecommendation',
@@ -59,7 +59,7 @@ export class ListComponent implements OnInit {
       {
         id: '4',
         name: 'Tblya',
-        coverImage: 'https://dashboard.tblya.com/assets/logo.svg',
+        coverImage: 'https://raw.githubusercontent.com/notmhmd/marvic/master/src/assets/logo.svg?token=GHSAT0AAAAAACGJJFKZ3TDCGRDHGOJIQELUZI2UGSQ',
         description:
           'tblya is a e-store builder platform built for sudanese market to help mini stores advance on the e-commerce eco-system',
         link: 'https://dashboard.tblya.com/#/home',
