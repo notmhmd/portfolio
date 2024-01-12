@@ -19,7 +19,7 @@ export class ExperincesComponent implements OnInit {
       {
         id: '1',
         description: 'Further Venture',
-        name: 'x-',
+        name: 'Further Venture',
         dateFrom: new Date('2023-10-01'),
         dateUntil: new Date(),
         position: 'Fullstack Engineer',
@@ -27,7 +27,7 @@ export class ExperincesComponent implements OnInit {
       {
         id: '2',
         description: 'Medan',
-        name: 'x-',
+        name: 'Disruptive Labs',
         dateFrom: new Date('2022-05-01'),
         dateUntil: new Date('2023-01-01'),
         position: 'Backend Engineer',
